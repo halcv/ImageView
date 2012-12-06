@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#202020">
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/ButtonLayoutStyle">
+
+	<Button
+		style="@style/ButtonStyle"
+		android:id="@+id/updatebutton"
+		android:text="@string/updatebutton_text" />
+	
+	<Button
+		style="@style/ButtonStyle"
+		android:id="@+id/prebutton"
+		android:text="@string/prebutton_text" />
+	<Button
+		style="@style/ButtonStyle"
+		android:id="@+id/forebutton"
+		android:text="@string/forebutton_text" />
+
+	<Button
+		style="@style/ButtonStyle"
+		android:id="@+id/slidebutton"
+		android:text="@string/slideStart_text" />
+	
+  </LinearLayout>
+
+  <ImageView
+	  style="@style/ImageViewStyle"
+	  android:id="@+id/image" />
+  
+</LinearLayout>

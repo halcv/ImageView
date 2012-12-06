@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">画像Viewer</string>
+    <string name="title_activity_image_view_main">画像Viewer</string>
+	<string name="prebutton_text">＜＜＜</string>
+	<string name="forebutton_text">＞＞＞</string>
+	<string name="updatebutton_text">リスト更新</string>
+	<string name="slideStart_text">スライド</string>
+	<string	name="slideStop_text">ストップ</string>
+</resources>
